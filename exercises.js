@@ -2,11 +2,17 @@
 
 function multiplyByTen(num) {
   //return num after multiplying it by ten
+  return num * 10;
 }
+
+console.log(multiplyByTen(60));
 
 function subtractFive(num) {
   //return num after subtracting five
+  return num - 5;
 }
+
+console.log(subtractFive(13));
 
 function areSameLength(str1, str2) {
   //return true if the two strings have the same length
@@ -16,58 +22,91 @@ function areSameLength(str1, str2) {
 function areEqual(x, y) {
   //return true if x and y are the same
   //otherwise return false
+  return if (x == y) {
+    console.log(true);
+  } else {
+    console.log(false);
+  }
 }
 
 function lessThanNinety(num) {
   //return true if num is less than ninety
   //otherwise return false
+  return if(num <= 90) {
+    console.log(true);
+  } else {
+    console.log(false);
+  }
 }
 
 function greaterThanFifty(num) {
   //return true if num is greater than fifty
   //otherwise return false
+  return if(num >= 90) {
+    console.log(true);
+  } else {
+    console.log(false);
+  }
 }
 
 function add(x, y) {
   //add x and y together and return the value
+  return x + y;
 }
 
 function subtract(x, y) {
   //subtract y from x and return the value
+  return x - y;
 }
 
 function divide(x, y) {
   //divide x by y and return the value
+  return x / y;
 }
 
 function multiply(x, y) {
   //multiply x by y and return the value
+  return x * y;
 }
 
 function getRemainder(x, y) {
   //return the remainder from dividing x by y
+  return x % y;
 }
 
 function isEven(num) {
   //return true if num is even
   //otherwise return false
+  return if(num%2==0) {
+    console.log(true);
+  } else {
+    console.log(false);
+  }
 }
 
 function isOdd(num) {
   //return true if num is odd
   //otherwise return false
+  return if(num%2==1) {
+    console.log(true);
+  } else {
+    console.log(false);
+  }
 }
 
 function square(num) {
   //square num and return the new value
+  return num ** 2;
 }
 
 function cube(num) {
   //cube num and return the new value
+  return num ** 3;
 }
 
 function raiseToPower(num, exponent) {
   //raise num to whatever power is passed in as exponent
+  return num ** exponent;
 }
 
 function roundNumber(num) {
